@@ -1,0 +1,33 @@
+.container {
+  width: 216px;
+}
+.container .display {
+  display: inline-block;
+  margin-bottom: 8px;
+  width: 208px;
+  font-size: 28px;
+  text-align: right;
+}
+.container .row {
+  margin-bottom: 4px;
+}
+.container .row.first {
+  display: flex;
+  justify-content: space-between;
+}
+.container .row.last {
+  margin-bottom: 0;
+}
+
+.container .row .btn {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 28px;
+}
+.container .row .btn.two-columns {
+  width: 105px;
+  border-radius: 30px;
+  text-align: left;
+  padding-left: 15px;
+}
